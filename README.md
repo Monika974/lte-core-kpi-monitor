@@ -74,11 +74,5 @@ screenshots/           add dashboard.png, attach_flow.png, alarms.png here
 ## Tech
 Python · Pandas · NumPy · Streamlit · Plotly · SQLite · LTE/EPC · IP networking
 
-## Resume description
-Developed a Python-based 4G LTE core network simulator to model subscriber provisioning, authentication,
-session establishment and signalling flows across MME, HSS, SGW and PGW components. Built a Streamlit
-dashboard to monitor network KPIs including attach success rate, authentication failures, latency, packet loss
-and session establishment rate, with rule-based alarm detection and troubleshooting recommendations.
-
 ## Possible extensions
 Roaming (home vs visited network, S6a/S8), Wireshark/PCAP import, handover (X2/S1) simulation, Docker.
