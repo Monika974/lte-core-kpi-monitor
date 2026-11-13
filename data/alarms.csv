@@ -1,0 +1,3 @@
+alarm_id,node,type,severity,kpi,value,causes,action
+ALM001,MME,Attach Failure Spike,CRITICAL,attach_success_rate,88.95,MME/HSS signalling issue; MME overload; Subscriber database problem,Check MME and HSS signalling logs; compare with authentication success.
+ALM002,HSS,Authentication Failure,CRITICAL,auth_success_rate,85.28,HSS unavailable; Subscriber database issue; Authentication vector/parameter failure,Check HSS connectivity and authentication logs.
